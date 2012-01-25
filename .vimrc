@@ -14,6 +14,10 @@ nnoremap <C-f><C-f> :FufFile<CR>
 " ctags generated with: ctags -R ~/workspace/klerk/src/ $JAVA_HOME/src/ *.java
 autocmd FileType java set tags=~/.tags
 
+if has("autocmd")
+  autocmd Filetype java setlocal omnifunc=javacomplete#Complete
+  autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
+endif
 " ================ General Config ====================
 set number "Line numbers are good
 set backspace=indent,eol,start "Allow backspace in insert mode

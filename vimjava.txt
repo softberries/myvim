@@ -1,0 +1,14 @@
+http://blog.vinceliu.com/2007/08/vim-tips-for-java-2-using-exuberant.html
+http://paintincode.blogspot.com/2011/04/mac-vim-setup-for-python-programming.html
+http://www.techrepublic.com/article/configure-vi-for-java-application-development/5054618
+http://www.vim.org/scripts/script.php?script_id=1891
+http://vim.wikia.com/wiki/VimTip1234
+http://www.vim.org/account/profile.php?user_id=9012
+
+#add some java snippets:
+https://github.com/msanders/snipmate.vim/blob/master/snippets/java.snippets
+
+#set autocomplete:
+http://stackoverflow.com/questions/6038510/vim-java-omnicomplete
+
+
